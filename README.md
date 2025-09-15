@@ -6,16 +6,15 @@ It includes essential dependencies and pre-configured setup for rapid backend de
 ---
 
 ## ✨ Features
-- ✅ **Spring Boot 3.x**
-- ✅ **Java 21 (Temurin JDK)**
-- ✅ **REST API template**
-- ✅ **JWT Authentication** (ready-to-use filter & config)
-- ✅ **Spring Security** with customizable rules
-- ✅ **Swagger UI** for API documentation
-- ✅ **DevTools** (auto-reload on changes)
-- ✅ **CORS enabled** (development friendly)
-- ✅ **MySQL database integration**
-- ✅ **Maven project structure**
+-  **Spring Boot 3.x**
+-  **Java 21 (Temurin JDK)**
+-  **REST API template**
+-  **JWT Authentication** (ready-to-use filter & config)
+-  **Spring Security** with customizable rules
+-  **Swagger UI** for API documentation
+-  **DevTools** (auto-reload on changes)
+-  **CORS enabled** (development friendly)
+-  **MySQL database integration**
 
 ---
 
