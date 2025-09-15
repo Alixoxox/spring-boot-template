@@ -8,9 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
 
 	public static void main(String[] args) {Dotenv dotenv = Dotenv.load();
-		System.setProperty("MySqlUrl", dotenv.get("MySqlUrl"));
-		System.setProperty("DbUsername", dotenv.get("DbUsername"));
-		System.setProperty("DbPassword", dotenv.get("DbPassword"));
+		System.setProperty("DB_URL", dotenv.get("DB_URL"));
+		System.setProperty("DB_USERNAME", dotenv.get("DB_USERNAME"));
+		System.setProperty("DB_PASSWORD", dotenv.get("DB_PASSWORD"));
 		SpringApplication.run(Application.class, args);
 	}
 
